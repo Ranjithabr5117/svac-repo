@@ -1,0 +1,359 @@
+<web-app>
+
+    <display-name>CLOUD</display-name>
+
+    <!-- All About Admin -->
+<welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+
+
+
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.action.user.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.action.admin.AdminLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Profile</servlet-name>
+		<servlet-class>com.action.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile</servlet-name>
+		<url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadFile</servlet-name>
+		<servlet-class>com.action.admin.UploadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFile</servlet-name>
+		<url-pattern>/UploadFile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadToCloud</servlet-name>
+		<servlet-class>com.action.admin.UploadToCloud</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadToCloud</servlet-name>
+		<url-pattern>/UploadToCloud</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Packet1</servlet-name>
+		<servlet-class>com.action.admin.Packet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Packet1</servlet-name>
+		<url-pattern>/Packet1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.action.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.action.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ServerList</servlet-name>
+		<servlet-class>com.action.admin.ServerList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServerList</servlet-name>
+		<url-pattern>/ServerList</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ListUser</servlet-name>
+		<servlet-class>com.action.admin.ListUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListUser</servlet-name>
+		<url-pattern>/ListUser</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>DepartmentList</servlet-name>
+		<servlet-class>com.action.admin.DepartmentList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DepartmentList</servlet-name>
+		<url-pattern>/DepartmentList</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.action.admin.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>DownloadToClient</servlet-name>
+		<servlet-class>com.action.user.DownloadToClient</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadToClient</servlet-name>
+		<url-pattern>/DownloadToClient</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>DesignationList</servlet-name>
+		<servlet-class>com.action.admin.DesignationList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DesignationList</servlet-name>
+		<url-pattern>/DesignationList</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>GenerateKey</servlet-name>
+		<servlet-class>com.action.admin.GenerateKey</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GenerateKey</servlet-name>
+		<url-pattern>/GenerateKey</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>FTPUpload</servlet-name>
+		<servlet-class>com.action.admin.FTPUpload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FTPUpload</servlet-name>
+		<url-pattern>/FTPUpload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadFileList</servlet-name>
+		<servlet-class>com.action.admin.UploadFileList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFileList</servlet-name>
+		<url-pattern>/UploadFileList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AccessFileControlList</servlet-name>
+		<servlet-class>com.action.admin.AccessFileControlList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessFileControlList</servlet-name>
+		<url-pattern>/AccessFileControlList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ControlFileAcess</servlet-name>
+		<servlet-class>com.action.admin.ControlFileAcess</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ControlFileAcess</servlet-name>
+		<url-pattern>/ControlFileAcess</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DistributeKey</servlet-name>
+		<servlet-class>com.action.admin.DistributeKey</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DistributeKey</servlet-name>
+		<url-pattern>/DistributeKey</url-pattern>
+	</servlet-mapping>
+	
+    
+    
+    
+    <servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.action.admin.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- All About Data Owner -->
+    
+    
+    <servlet>
+		<servlet-name>DataOwnerLogin</servlet-name>
+		<servlet-class>com.action.dataowner.DataOwnerLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DataOwnerLogin</servlet-name>
+		<url-pattern>/DataOwnerLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>OwnerProfile</servlet-name>
+		<servlet-class>com.action.dataowner.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OwnerProfile</servlet-name>
+		<url-pattern>/OwnerProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EditOwnerProfile</servlet-name>
+		<servlet-class>com.action.dataowner.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditOwnerProfile</servlet-name>
+		<url-pattern>/EditOwnerProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangeOwnerPassword</servlet-name>
+		<servlet-class>com.action.dataowner.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeOwnerPassword</servlet-name>
+		<url-pattern>/ChangeOwnerPassword</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ListDataOwners</servlet-name>
+		<servlet-class>com.action.dataowner.ListDataOwners</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListDataOwners</servlet-name>
+		<url-pattern>/ListDataOwners</url-pattern>
+	</servlet-mapping>
+    
+    
+    
+    
+    
+    
+	
+	<!-- All About Users -->
+	
+	<servlet>
+		<servlet-name>UserProfile</servlet-name>
+		<servlet-class>com.action.user.UserProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserProfile</servlet-name>
+		<url-pattern>/UserProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditUserProfile</servlet-name>
+		<servlet-class>com.action.user.EditUserProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditUserProfile</servlet-name>
+		<url-pattern>/EditUserProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangeUserPassword</servlet-name>
+		<servlet-class>com.action.user.ChangeUserPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeUserPassword</servlet-name>
+		<url-pattern>/ChangeUserPassword</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadFiles</servlet-name>
+		<servlet-class>com.action.user.DownloadFiles</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFiles</servlet-name>
+		<url-pattern>/DownloadFiles</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>com.action.user.Download</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/Download</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReadFile</servlet-name>
+		<servlet-class>com.action.user.ReadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadFile</servlet-name>
+		<url-pattern>/ReadFile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>VerifyKey</servlet-name>
+		<servlet-class>com.action.user.VerifyKey</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerifyKey</servlet-name>
+		<url-pattern>/VerifyKey</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ViewAdminTransaction</servlet-name>
+		<servlet-class>com.action.admin.ViewAdminTransaction</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewAdminTransaction</servlet-name>
+		<url-pattern>/ViewAdminTransaction</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UserTransactionList</servlet-name>
+		<servlet-class>com.action.user.UserTransactionList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserTransactionList</servlet-name>
+		<url-pattern>/UserTransactionList</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>

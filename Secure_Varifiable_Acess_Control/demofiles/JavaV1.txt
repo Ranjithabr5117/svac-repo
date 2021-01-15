@@ -1,0 +1,35 @@
+fdgdfgfdhgdfhdfhdf
+ggfdgfdgdfg
+fdhfdghafgadf
+bdfcvbzdf
+
+Notepad is a basic text editor that you can use to create simple documents. The most common use for Notepad is to view or edit text (.txt) files, but many users find Notepad a simple tool for creating Web pages.
+
+Because Notepad supports only very basic formatting, you cannot accidentally save special formatting in documents that need to remain pure text. This is especially useful when creating HTML documents for a Web page because special characters or other formatting may not appear in your published Web page or may even cause errors.
+
+You can save your Notepad files as Unicode, ANSI, UTF-8, or big-endian Unicode. These formats provide you greater flexibility when working with documents that use different character sets.
+
+Notepad is a basic text editor that you can use to create simple documents. The most common use for Notepad is to view or edit text (.txt) files, but many users find Notepad a simple tool for creating Web pages.
+
+Because Notepad supports only very basic formatting, you cannot accidentally save special formatting in documents that need to remain pure text. This is especially useful when creating HTML documents for a Web page because special characters or other formatting may not appear in your published Web page or may even cause errors.
+
+You can save your Notepad files as Unicode, ANSI, UTF-8, or big-endian Unicode. These formats provide you greater flexibility when working with documents that use different character sets.
+Notepad is a basic text editor that you can use to create simple documents. The most common use for Notepad is to view or edit text (.txt) files, but many users find Notepad a simple tool for creating Web pages.
+
+To change the appearance of a printed Notepad document
+On the File menu, click Page Setup. 
+In the Page Setup dialog box, do one of the following: 
+To change the paper size, click a size in the Size list. 
+To change the paper source, click a tray name or a feeder in the Source list. 
+To print the document vertically, click Portrait; to print the document horizontally, click Landscape. 
+To change the margins, type a width in any of the Margins boxes. 
+To change your printer settings, click Printer. 
+
+To change the appearance of a printed Notepad document
+On the File menu, click Page Setup. 
+In the Page Setup dialog box, do one of the following: 
+To change the paper size, click a size in the Size list. 
+To change the paper source, click a tray name or a feeder in the Source list. 
+To print the document vertically, click Portrait; to print the document horizontally, click Landscape. 
+To change the margins, type a width in any of the Margins boxes. 
+To change your printer settings, click Printer. 
